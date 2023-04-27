@@ -57,6 +57,14 @@
      justify-content: center;
      padding-left: 100px;
 }
+.p-square-reverse {
+    height: 400px;
+    width: 35%;
+    flex-direction: column;
+    justify-content: center;
+    padding-right:50px;
+    padding-top: 50px;
+}
 .g-square {
     background-color: green;
     height: 600px;
@@ -161,6 +169,7 @@ li{
 .item-p {
     line-height: 1.6;
 }
+
 
 
 
