@@ -210,12 +210,17 @@ li{
     height: 15px;
     
 }
+.list {
+    padding-left: 30px;
+    padding-top: 10px;
+}
 .list-title {
     color: #7389DA;
 }
 
-.list-title > li {
-    color: blue;
+.list-title ~ li, .list-title {
+    padding: 0 20px;
+
 }
 
 .bar {
