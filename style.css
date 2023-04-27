@@ -47,14 +47,15 @@
     color: white;
 }
 .b-square {
-    background-color: #1D91FF;
-    height: 300px;
-    flex-grow: 2;
+    height: 400px;
+    width: 60%;
 }
 .p-square {
-     background-color: #FFC1CB;
-     height: 300px;
-     flex-grow: 1;
+     height: 400px;
+     width: 35%;
+     flex-direction: column;
+     justify-content: center;
+     padding-left: 100px;
 }
 .g-square {
     background-color: green;
@@ -153,6 +154,21 @@ li{
     border-radius: 25px;
     color: white;
 }
+.item-title {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.item-p {
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
 .p-b {
     flex-direction: row-reverse;
 }
