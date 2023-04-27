@@ -76,15 +76,15 @@
     justify-items: center;
 
 }
-.salmon-square {
-    background-color: #F08080;
+.logo-square {
     height: 300px;
-    flex-grow: 2;
+    flex-direction: column;
+    color: white;
+    gap: 15px;
 }
-.a-squares {
-    background-color: #20B2A9;
+.footer-squares {
     height: 300px;
-    flex-grow: 1;
+    
 }
 
 
@@ -185,7 +185,7 @@ li{
     padding-bottom: 150px;
 }
 .mac-downl-last {
-    background-color: #7187D7;
+    background-color: #8FA1E1;
     text-decoration: none;
     padding: 15px 25px;
     border-radius: 25px;
@@ -193,30 +193,41 @@ li{
     text-align: center;
     width: auto;
 }
-
-
-
-
-
-
-
-
 .p-b {
     flex-direction: row-reverse;
 }
-.bar {
-    background-color: #7FFFD4;
-    height: 60px;
-    justify-content: space-between;
+
+
+/* footer */
+.title-logo-square {
+    color: #7389DA;
 }
-.logo-footer{
-    background-color: #FFB6C1;
-    height: 20px;
-    align-self: center;
+.ita{
+    gap: 5px;
+    align-items: center;
+}
+.logo-ita {
+    height: 15px;
     
 }
+.list-title {
+    color: #7389DA;
+}
+
+.list-title > li {
+    color: blue;
+}
+
+.bar {
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
 .button {
-    background-color: #FFB6C1;
-    height: 20px;
-    align-self: center;
+    background-color: #8FA1E1;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    width: auto;
 }
