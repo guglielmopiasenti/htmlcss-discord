@@ -1,0 +1,120 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* UTILS */
+.flex {
+    display: flex;
+}
+.b-b-b{
+    border: 2px dashed black;
+}
+.b-b-w {
+    border: 2px dashed white;
+}
+/* backgrounds */
+.bg-b {
+    background-color: blue;
+}
+.bg-w {
+    background-color: white;
+}
+.bg-g {
+    background-color: #D3D3D3;
+}
+.bg-dg {
+    background-color: #23272A;
+}
+.bg-dg-bw {
+    background-color: #23272A;
+    border-top: 2px solid white;
+    padding-top: 20px;
+}
+/* squares */
+.squares {
+   padding: 30px 0;
+}
+.sp-square {
+    background-color: #EF82EE;
+    width: 80%;
+    height: 250px;
+}
+.b-square {
+    background-color: #1D91FF;
+    height: 300px;
+    flex-grow: 2;
+}
+.p-square {
+     background-color: #FFC1CB;
+     height: 300px;
+     flex-grow: 1;
+}
+.g-square {
+    background-color: green;
+    height: 600px;
+}
+.salmon-square {
+    background-color: #F08080;
+    height: 300px;
+    flex-grow: 2;
+}
+.a-squares {
+    background-color: #20B2A9;
+    height: 300px;
+    flex-grow: 1;
+}
+
+
+/* main css */
+header {
+    background-color: aquamarine;
+    height: 50px;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.navigator {
+    align-items: center;
+    height: 50px;
+    
+}
+.logo {
+    width: 15%;
+    background-color: yellow;
+}
+.links {
+    width: 70%;
+    background-color: yellow;
+    justify-content: center;
+}
+.login {
+    width: 15%;
+    background-color: yellow;
+    justify-content: flex-end;
+}
+.jumbotron {
+    justify-content: center;
+    padding: 30px 0;
+}
+.p-b {
+    flex-direction: row-reverse;
+}
+.bar {
+    background-color: #7FFFD4;
+    height: 60px;
+    justify-content: space-between;
+}
+.logo-footer{
+    background-color: #FFB6C1;
+    height: 20px;
+    align-self: center;
+    
+}
+.button {
+    background-color: #FFB6C1;
+    height: 20px;
+    align-self: center;
+}
