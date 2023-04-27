@@ -33,8 +33,11 @@
 }
 .bg-dg-bw {
     background-color: #23272A;
-    border-top: 2px solid white;
     padding-top: 20px;
+}
+.bg-line {
+    padding-bottom: 30px;
+    border-top: 1px solid #7389DA;
 }
 
 
